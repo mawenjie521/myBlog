@@ -13,6 +13,12 @@ var config = {
         libraryTarget: 'window',
         libraryExport: 'default',
         filename: 'app.bundle.js'
+    },
+    resolve: {
+      alias: {
+          '@root': path.resolve(__dirname,'../')
+      },
+      extensions: ['.js', '.vue']
     }
   },
   chainWebpack: config => {
