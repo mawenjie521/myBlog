@@ -7,7 +7,7 @@ const config = {
     USERNAME: 'root',
     PASSWORD: '123456',
     PORT: '3306',
-    HOST: 'localhost'
+    HOST: '10.2.21.35'
   }
 }
 
