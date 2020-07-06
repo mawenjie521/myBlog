@@ -27,3 +27,8 @@ mysql -u root -p
 Enter password:
 
 mysqladmin -uroot -p123456 password 123
+
+项目启动步骤
+1.安装依赖：npm install
+2.前台打包：npm run start_static
+3.启动程序：npm run start_server
