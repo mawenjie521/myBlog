@@ -1,12 +1,13 @@
 const mysql = require('mysql')
 const config = require('./../../config')
 const dbConfig = config.database
-
+console.log(dbConfig.PORT)
 const pool = mysql.createPool({
   host     :  dbConfig.HOST,
   user     :  dbConfig.USERNAME,
   password :  dbConfig.PASSWORD,
-  database :  dbConfig.DATABASE
+  database :  dbConfig.DATABASE,
+  port     :  dbConfig.PORT
 })
 
 

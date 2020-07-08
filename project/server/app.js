@@ -19,6 +19,7 @@ const sessionMysqlConfig= {
   password: config.database.PASSWORD,
   database: config.database.DATABASE,
   host: config.database.HOST,
+  port: config.database.PORT
 }
 
 // 配置session中间件
@@ -35,12 +36,12 @@ app.use(bodyParser())
 
 // 配置静态资源加载中间件
 app.use(koaStatic(
-  path.join(__dirname , './../static')
+  path.join(__dirname , './../static/output/vue')
 ))
 
 // 配置服务端模板渲染引擎中间件
-app.use(views(path.join(__dirname, './views'), {
-  extension: 'ejs'
+app.use(views(path.join(__dirname, './../static/output/vue'), {
+  extension: 'html'
 }))
 
 // 初始化路由中间件

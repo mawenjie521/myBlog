@@ -6,7 +6,7 @@ const config = {
     DATABASE: 'koa_demo',
     USERNAME: 'root',
     PASSWORD: '123456',
-    PORT: '3306',
+    PORT: '9999',
     HOST: '10.2.21.35'
   }
 }
