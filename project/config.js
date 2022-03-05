@@ -7,7 +7,7 @@ const config = {
     USERNAME: 'debian-sys-maint',
     PASSWORD: 'ejg5mBHjQ4UnfGZl',
     PORT: '9999',
-    HOST: '127.0.0.0'
+    HOST: '127.0.0.1'
   }
 }
 
