@@ -4,10 +4,10 @@ const config = {
 
   database: {
     DATABASE: 'koa_demo',
-    USERNAME: 'root',
-    PASSWORD: '123456',
+    USERNAME: 'debian-sys-maint',
+    PASSWORD: 'ejg5mBHjQ4UnfGZl',
     PORT: '9999',
-    HOST: '10.2.21.35'
+    HOST: '127.0.0.0'
   }
 }
 
