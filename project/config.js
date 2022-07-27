@@ -9,7 +9,7 @@ const config = {
     DATABASE: 'koa_demo',
     USERNAME: 'root',
     PASSWORD: '123456',
-    HOST: 'localhost'
+    HOST: '101.43.248.133'
   }
 }
 
